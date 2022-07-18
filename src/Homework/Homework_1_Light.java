@@ -12,8 +12,5 @@ public class Homework_1_Light {
         String result = hi.trim() + world.toLowerCase() + newLine;
         System.out.println(result.repeat(3));
 
-
-
-
     }
 }
