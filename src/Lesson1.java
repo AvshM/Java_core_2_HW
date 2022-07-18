@@ -37,5 +37,6 @@ public class Lesson1 {
         arrayChar [4] = 'а';
         System.out.println(arrayChar);
 
+
     }
 }
