@@ -1,6 +1,7 @@
 package Homework;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Homework_1_Light {
     public static void main(String[] args) {
@@ -70,6 +71,15 @@ public class Homework_1_Light {
             arrRes[i + 10]=arr1[i]*arr2[i];
         }
         System.out.println(Arrays.toString(arrRes));
+
+        //Задача №4
+        //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
+
+        String textN4 = "Hello world!";
+        String resTextN4 = textN4.replaceAll("l","r").toUpperCase().substring(0, 8);
+        System.out.println(resTextN4);
+
+
 
     }
 
