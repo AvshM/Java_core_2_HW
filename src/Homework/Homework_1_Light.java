@@ -79,8 +79,6 @@ public class Homework_1_Light {
         String resTextN4 = textN4.replaceAll("l","r").toUpperCase().substring(0, 8);
         System.out.println(resTextN4);
 
-
-
     }
 
 }
