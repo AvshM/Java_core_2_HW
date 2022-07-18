@@ -12,5 +12,45 @@ public class Homework_1_Light {
         String result = hi.trim() + world.toLowerCase() + newLine;
         System.out.println(result.repeat(3));
 
+        //Задача №2
+        //Создать переменные с ростом (!в метрах), весом в кило.
+        //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
+        //Пример результата вывода на экран:
+        //21.0345645
+        double height = 2.1;
+        double weight = 80;
+        double indexMT = weight / (height * height);
+        System.out.println(indexMT);
+
+        //Задача №3
+        //Создать из массива букв a,b,c,d,e, строку,вывести на экран , поменять в массиве 4 букву по счету на h,
+        //и снова создать строку, вывести на экран
+        //Ожидаемый результат:
+        //abcde
+        //abche
+
+        char arr [] = {'a', 'b', 'c', 'd', 'e'};
+        System.out.println(arr);
+        arr[3] = 'h';
+        System.out.println(arr);
+
+        //Продвинутый уровень
+        //Задача №1
+        //Произвести преобразование текста "234" в число типа int и прибавить к этому числу длину строки "some_text"
+
+        String textNum = "234";
+        int number = Integer.parseInt(textNum);
+        String textLen = "some_text";
+        System.out.println(number+textLen.length());
+
+        //Задача №2
+        //Посчитать (a+b)^2 = ?, при a=3, b=5
+        int a = 3;
+        int b = 5;
+        int square = (a+b)*(a+b);
+        System.out.println(square);
+
+
     }
+
 }
